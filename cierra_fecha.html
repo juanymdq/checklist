@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+</head>
+
+<body>
+    <? 
+    $con = mysql_connect("localhost","root","");
+    mysql_select_db("check",$con);
+    $res = "SELECT id_hoja,MAX(fdp) as fdp FROM hoja WHERE estado like 'ABIERTA'";
+    $resval = mysql_query($res);
+    if(mysql_num_rows($resval)<>0){
+        $fila = mysql_fetch_array($resval);
+        echo $fila[0];
+    }    
+    $resh="UPDATE hoja SET estado='CERRADA',id_usuario=1,horacierre='23:50:00' WHERE id_hoja='$fila[0]'";
+    mysql_query($resh);
+    $rest = "UPDATE turnos SET testado='CERRADO'";
+    mysql_query($rest);
+    ?>
+  
+</body>
+</html>

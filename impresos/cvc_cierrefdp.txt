@@ -1,0 +1,11 @@
+PARA
+AuditoriaMaquinas@casinovictoria.com.ar
+mdp_operadores@boldt.com.ar
+
+ASUNTO
+FDP: dd/mm/AAAA CASINO VICTORIA
+
+CUERPO
+Se encuentra cerrada la FDP: dd/mm/AAAA
+
+Saludos.

@@ -1,0 +1,51 @@
+/* CSS Document */
+#encabezado_tabla{
+	text-align:center;
+	background-color:#CCC;
+	font-weight:bold;
+}
+#tabla_login{
+	text-align:center;
+}
+#tabla_login td{
+	padding-top:10px;
+}
+ul{
+	font-size:24px;
+	margin-top:10px;
+}
+ul li{
+	padding-top:10px;}
+p{
+	font-size:20px;}
+ul_bienvenido{
+	font-size:14px;
+}
+#tablaEdicion{
+	border-bottom:solid;
+	border-top:solid;
+	border-left:solid;
+	border-right:solid;
+}	
+#tdBoton1{
+	margin-right:10px;
+	
+}
+
+#volver{
+	font-size:20px;
+}
+#tabla1{
+	float:left;
+	font-size:9px;
+	margin-right:50px;
+	margin-left:10px;
+	margin-top:20px;
+}
+#tabla2{
+	font-size:9px;
+	margin-top:20px;
+}
+#encabezado{
+	float:left;
+}

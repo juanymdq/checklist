@@ -1,0 +1,169 @@
+html, body {
+margin:0; 
+padding:0; 
+width:100%; 
+height:100%; 
+overflow:hidden; 
+text-align:left;
+}
+body {
+font-family:verdana, arial, sans-serif; 
+font-size:12px;
+background-color: #003366;
+}
+/*CONTENEDOR GENERAL*/
+#wrapper {
+width: 100%;
+height: 94%;
+text-align: center;
+margin-top: 10px;
+background-color:#CCC;
+}
+/*TITULO DEL REPORTE*/
+#titulo{		
+	text-align:center;
+	font-size:20px;
+	margin-bottom:5px;
+    
+}
+#container {
+width: 90%;
+height: 102%;
+margin-left:auto;
+margin-right:auto;
+}
+/*INCLUYE LA FECHA Y LA HORA*/
+#cabeza {
+width: 100%;
+height: 8%;
+margin: 0 0 0 0;
+background-color:#6CF;
+border:black 1px solid; 
+}
+/*INCLUYE LOS BOTONES*/
+#menu {
+width: 100%;
+height: 72px;
+background-color: #33C7FF;
+border:black 1px solid;
+}
+/*CUERPO DE LA PAGINA*/
+#content {
+width: 100%;
+height: 74%;
+background-color:#FFFFFF;
+margin-top: 2px auto;
+margin-bottom: 3px;
+overflow: scroll;
+}
+#foot {
+width: 100%;
+height: 20px;
+background-color:#9E9E9E;
+}
+/*CONTIENE USUARIO - ROL - CAMBIO DE CONTRASEÑA Y CIERRE DE SESION*/
+#tablaInicio{	
+	width:100%;   
+    padding-bottom: 5px; 
+	background-color:#CCC;	
+	margin-bottom:5px;
+}
+/* TABLA DE MENU DE BOTONES */
+#tablaBotones{	
+	width:100%;
+    text-align: center;
+    
+}
+#tablaBotones td{	
+	
+    
+}
+#listaIndex {
+	list-style:none;
+	font-size:10px	;	
+	background-color:gray;
+	border:black 1px solid;
+	height: 45px;
+}
+#listaIndex li{
+	margin:4px;
+	padding:5px 10px 5px 5px;
+	border-right: 1px solid #CCCCCC;	
+	float:left;	
+}
+#listaIndex li a {
+	display:block; /*Convertimos el vínculo en un bloque.*/
+	width:100px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;	
+}
+#listaIndex li a:hover {
+	color: #F00;
+	background-color:#999;
+	border-left-color:#99CC00;
+}
+/*TABLA DE LOGUEO EN PAGINA INDEX.PHP*/
+#tablaLogin{	
+	padding-top: 5px;
+	height:170px;
+	width:350px;
+	border:outset;
+}
+#tablaLogin th{
+	text-align:right;
+	border-color:#9E9E9E;
+}
+#tablaLogin td{	
+	font-weight:bold;	
+}
+#loginTd{
+	background-color:#6CF;
+	font-size:18px;	
+}
+/*--------------------------------------*/
+#tablaEdicion{
+	margin-top: 4px;
+}
+#tablaEdicion td{	
+	text-align:left;
+	width:150px;		
+}
+#tablaEdicion th{
+	text-align:right;
+	width:140px;	
+}
+
+#tablaEdicion td#volver{
+	text-align:center;
+	width:50;
+	font-size:18px;	
+}
+
+#tablaArticulos{	
+	background-color:#CCC;
+	margin:auto;
+	border-style:ridge;
+	border-right-style:ridge;			
+}
+#tablaArticulos th{
+	border-color:#666;
+}
+#tablaArticulos td{	
+	font-weight:bold;	
+}
+#tablaArticulosCuerpo{	
+	font-size:12px;
+	background-color: #FFF;
+	margin:auto;
+	border-color:#60C;
+	
+}
+#tablaArticulosCuerpo td{
+	text-align:left;
+}
+#busqueda{	
+	margin: 20px;	
+}
